@@ -21,4 +21,3 @@ This project contains no personal javascript code, intentionally. My focus has b
 
 
 ### Desktop and/or landscape preview
-![Desktop Portfolio Preview](icon48.png)
