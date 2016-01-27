@@ -7,6 +7,7 @@ This project contains no personal javascript code, intentionally. My focus has b
 ### Technologies utilized
 * [Bootstrap](https://getbootstrap.com/) - for grid-based and responsive design, and image responsiveness
 * [Polymer](https://www.polymer-project.org/1.0/) - for material design, paper-card style elements
+* [Remodal](http://vodkabears.github.io/remodal/) - for integrating nicely designed modal for each project description
 * [Freepik](http://www.flaticon.com/authors/freepik) icons - for nicely designed social icons
 
 ### What I learned from this project
