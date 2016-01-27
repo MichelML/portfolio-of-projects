@@ -20,8 +20,7 @@ This project contains no personal javascript code, intentionally. My focus has b
 * Writing markdown documents
 
 
-## Desktop and/or landscape preview
-![Web Portfolio - Desktop view]<img src="https://raw.githubusercontent.com/MichelML/Portfolio_Project1_Udacity_Nanodegree/master/preview.png" width="150px">
+## Webfolio preview
+<img title="Desktop and landscape view" style="display:inline;" src="https://raw.githubusercontent.com/MichelML/Portfolio_Project1_Udacity_Nanodegree/master/preview.png" width="600px">
 
-## Mobile and/or portrait preview
-![Web Portfolio - Mobile view](https://raw.githubusercontent.com/MichelML/Portfolio_Project1_Udacity_Nanodegree/master/preview2.PNG)
+<img title="Mobile and portrait view" style="display:inline;" src="https://raw.githubusercontent.com/MichelML/Portfolio_Project1_Udacity_Nanodegree/master/preview2.PNG" width="300px">
