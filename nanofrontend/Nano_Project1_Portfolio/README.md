@@ -12,7 +12,7 @@ This project contains no personal javascript code, intentionally. My focus has b
 ### What I learned from this project
 * Creating a sidebar
 * Creating a sticky footer
-* Playing with media queries for different rendering depending on the devie used, and device orientation (portait vs. landscape)
+* Playing with media queries for different rendering depending on which device is used and device orientation (portait vs. landscape)
 * Using new HTML5 tags such as *header*, *aside*, *main*, *section*, *article*, and *footer*
 * Targeting class and ids with regex in CSS
 * Deepening my comprehension on how to use the Chrome Developer Tool 
