@@ -21,6 +21,6 @@ This project contains no personal javascript code, intentionally. My focus has b
 
 
 ## Webfolio preview
-<img title="Desktop and landscape view" style="display:inline;" src="https://raw.githubusercontent.com/MichelML/Portfolio_Project1_Udacity_Nanodegree/master/preview.png" width="600px">
+<img title="Desktop and landscape view" style="display:inline;" src="https://raw.githubusercontent.com/MichelML/Portfolio_Project1_Udacity_Nanodegree/master/preview.png" width="500px">
 
 <img title="Mobile and portrait view" style="display:inline;" src="https://raw.githubusercontent.com/MichelML/Portfolio_Project1_Udacity_Nanodegree/master/preview2.PNG" width="300px">
