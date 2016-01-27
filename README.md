@@ -20,5 +20,5 @@ This project contains no personal javascript code, intentionally. My focus has b
 * Writing markdown documents
 
 
-## Webfolio preview
+## Webfolio preview - Desktop and mobile views
 <img title="Desktop and landscape view" style="display:inline-block;padding-right:30px;" src="https://raw.githubusercontent.com/MichelML/Portfolio_Project1_Udacity_Nanodegree/master/preview.png" width="500px">&nbsp;&nbsp;&nbsp;<img title="Mobile and portrait view" style="display:inline-block;" src="https://raw.githubusercontent.com/MichelML/Portfolio_Project1_Udacity_Nanodegree/master/preview2.PNG" width="300px">
