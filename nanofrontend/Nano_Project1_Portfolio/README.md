@@ -21,4 +21,4 @@ This project contains no personal javascript code, intentionally. My focus has b
 
 
 ### Desktop and/or landscape preview
-![alt text](https://raw.githubusercontent.com/MichelML/Portfolio_Project1_Udacity_Nanodegree/master/nanofrontend/Nano_Project1_Portfolio/preview.png =150x150)
+![alt text](Portfolio_Project1_Udacity_Nanodegree/nanofrontend/Nano_Project1_Portfolio/preview.png =150x150)
