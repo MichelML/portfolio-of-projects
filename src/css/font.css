@@ -1,0 +1,12 @@
+/*BODY*/
+html,body * {
+	font-family:"Montserrat", Arial, Helvetica, sans-serif;
+}
+
+
+/*MODALS*/
+
+.remodal p {
+	text-align:left;
+	font-size:1.2em;
+}

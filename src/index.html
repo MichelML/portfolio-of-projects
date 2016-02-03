@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	 
+		 <!--setting the charset to utf-8 and ensuring proper rendering and touch zooming-->
+		 <meta char="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		 
+     <!--setting page title and tab icon-->	 
+	 	 <title>Michel Moreau | Portfolio</title>
+		 <link rel="shortcut icon" href="Enso.png">
+			
+     <!--POLYMER-->
+     <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+     <link rel="import" href="bower_components/paper-card/paper-card.html">
+     
+     <!--stylesheets-->
+         <!--BOOTSTRAP-->
+     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+         <!--REMODAL-->
+     <link rel="stylesheet" href="bower_components/remodal/dist/remodal.css">
+     <link rel="stylesheet" href="bower_components/remodal/dist/remodal-default-theme.css">
+         <!--PERSONAL STYLESHEETS-->
+     <link rel="stylesheet" href="css/mobilelayout.css">
+     <link rel="stylesheet" href="css/font.css">
+     <link rel="stylesheet" href="css/colorandshadow.css">
+     <link rel="stylesheet" href="css/effect.css">
+     <link rel="stylesheet" href="css/mediaqueries.css">
+     
+     <!--web fonts -- MONTSERRAT -->
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+     
+	</head>
+ 	<body>
+ 		<!--button to come back to the top of the page-->
+ 		<a  id="to-top-link" href="#content">
+ 			<span id="to-top-icon" class="glyphicon glyphicon-circle-arrow-up"></span>
+		</a>
+		<!--end of to-top-link code-->
+		
+		<!--github link to fork the project-->
+		<div id="github-link">
+			<a href="https://github.com/MichelML/Portfolio_Project1_Udacity_Nanodegree" target="_blank">
+				<img class="github" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png">
+			</a>
+		</div>
+		<!--end of github link-->
+		
+		<!--NAVBAR/HEADER-->
+		<nav id="header" class="navbar navbar-default">
+			<div class="row">
+				<div class="col-xs-4">
+					<a href="#">
+						<img id="brand-logo" src="img/Enso.svg" alt="Brand Logo">
+					</a>
+				</div>
+				<div id="brand-text" class="col-xs-8 text-right">
+					<a href="#">
+						<h5>MICHEL MOREAU</h5>
+						<h6>web monk</h6>
+					</a>
+				</div>
+			</div>
+		</nav>
+		<!-- end of NAVBAR/HEADER-->
+		
+		<!-- MAIN SECTION - includes the SIDEBAR and the PORTFOLIO section-->
+		<main id="content" class="container-fluid">
+      
+		  <!-- the main section is contained in one big row to seperate the sidebar from the portfolio items-->
+			<div class="row">
+          
+			  <!-- SIDEBAR SECTION-->  
+				<aside id="aside" class="col-xs-12 col-md-2 text-center">
+
+					<div id="color-palette" class="row">
+						<div class="col-xs-12">
+							<h4>COLOR PALETTE</h4>
+						</div>
+					</div>
+
+					<div id="colors" class="row">
+						<div class="col-xs-12">
+							<div class="row">
+								<div id="black-color" class="col-xs-3 col-md-12">
+									<h5>#000</h5>
+								</div>
+
+								<div id="grey-color" class="col-xs-3 col-md-12">
+									<h5>#f5f5f5</h5>
+								</div>
+
+								<div id="blue-color" class="col-xs-3 col-md-12">
+									<h5>#39c</h5>
+								</div>
+
+								<div id="white-color" class="col-xs-3 col-md-12">
+									<h5>#fff</h5>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</aside>
+				<!-- end of SIDEBAR section -->
+				
+				<!-- PORTFOLIO section -->
+				<section id="portfolio" class="col-xs-12 col-md-10">
+
+					<div class="row text-center">
+						<div class="col-xs-12">
+							<h2>PORTFOLIO</h2>
+							<hr class="hr-gradient">
+						</div>
+					</div>
+
+					<div class="row text-center">
+						<div id="portfolio-item-1" class="col-xs-12">
+							<a href="#personalwebsiteModal">
+								<paper-card elevation="4">
+										<div class="card-actions text-center card-title">PERSONAL WEBSITE PROJECT</div>
+										<!-- .col-xs-12 is added to images for proper resizing in Mozilla Firefox -->
+										<img id="image-1-desktop" src="img/personalwebsite2.png" class="img-responsive col-xs-12" alt="Personal Website Project"/>
+										<img  id="image-1-mobile" src="img/personalwebsite.png" class="img-responsive col-xs-12" alt="Personal Website Project"/>
+								</paper-card>
+							</a>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="row">
+								<div id="portfolio-item-2" class="col-xs-12 col-md-4">
+									<a href="#diabeteenformeModal">
+										<paper-card elevation="4">
+												<div class="card-actions text-center card-title">DIABETE EN FORME</div>
+                        <!-- .col-xs-12 is added to images for proper resizing in Mozilla Firefox -->
+												<img id="image-2" src="img/diabeteenforme.png" class="img-responsive col-xs-12" alt="Diabete en Forme"/>
+										</paper-card>
+									</a>
+								</div>
+								<div id="portfolio-item-3" class="col-xs-12 col-md-4">
+									<a href="#diagoModal">
+										<paper-card elevation="4">
+												<div class="card-actions text-center card-title">DIAGO</div>
+                        <!-- .col-xs-12 is added to images for proper resizing in Mozilla Firefox -->
+												<img id="image-3" src="img/diago.png" class="img-responsive col-xs-12" alt="DIAGO Project"/>
+										</paper-card>
+									</a>
+								</div>
+								<div id="portfolio-item-4" class="col-xs-12 col-md-4">
+									<a href="#todozenModal">
+										<paper-card elevation="4">
+												<div class="card-actions text-center card-title">TODOZEN</div>
+    										<!-- .col-xs-12 is added to images for proper resizing in Mozilla Firefox -->
+												<img id="image-4" src="img/todozen.png" class="img-responsive col-xs-12" alt="TODOZEN Project"/>
+										</paper-card>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</section>
+				<!-- end of PORTFOLIO section -->
+				
+			</div>
+		</main>
+		<!-- end of the MAIN SECTION -->
+		
+		<!--FOOTER section -->
+			<!--disclosure: All social media logos are created by Freepik - http://www.flaticon.com/authors/freepik-->
+		<footer id="footer-copyright-and-social" class="footer">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-12 text-center">
+								<a href="https://github.com/MichelML/Portfolio_Project1_Udacity_Nanodegree" target="_blank">
+									<img alt="more info" id="social-about" src="img/Designed-By-Freepik/info27.svg" class="hvr-shadow">
+								</a>
+								<a href="mailto:michmoreau.l@gmail.com">
+									<img alt="email icon" id="social-gmail" src="img/Designed-By-Freepik/email131.svg" class="hvr-shadow">
+								</a>
+								<a href="https://ca.linkedin.com/in/michelmoreau1" target="_blank">
+									<img alt="linkedin icon" id="social-linkedin" src="img/Designed-By-Freepik/linkedin.svg" class="hvr-shadow">
+								</a>
+								<a href="https://twitter.com/MichelMoreau_RD" target="_blank">
+									<img alt="twitter icon" id="social-twitter" src="img/Designed-By-Freepik/logo22.svg" class="hvr-shadow">
+								</a>
+								<a href="https://github.com/MichelML" target="_blank">
+									<img alt="github icon" id="social-github" src="img/Designed-By-Freepik/github17.svg" class="hvr-shadow">
+								</a>
+							</div>
+							<div class="col-xs-12 text-center">
+								<small>© Michel Moreau, 2016</small>											
+								<img alt="Brand Logo" id="footer-img" src="img/Enso.svg">
+							</div>
+						</div>
+					</div>
+		</footer>
+		<!-- end of FOOTER section-->
+		
+		<!--MODALS FOR EACH ITEM OF THE PORTFOLIO SECTION-->
+		<div class="remodal" data-remodal-id="personalwebsiteModal">
+			<button data-remodal-action="close" class="remodal-close"></button>
+			<img src="img/personalwebsite.png" width="200px" alt="Personal Website Project">
+			<h3>Personal Website Project</h3>
+			<p>
+				This project was created with a bootstrap theme named <strong><a href="http://startbootstrap.com/template-overviews/freelancer/" target="_blank">Freelancer<span class="glyphicon glyphicon-link"></span></a></strong>, combined with the work of Ian Lunn - <strong><a href="https://github.com/IanLunn/Hover/blob/master/css/hover.css" target="_blank">Hover.css <span class="glyphicon glyphicon-link"></a></strong>.  Some modifications were made for personalization purposes, such as adding my picture, new sections, and different glyphicons.
+			</p>
+			<p>
+				With this project, I got in touch with <strong><a href="http://sass-lang.com/" target="_blank">Sass <span class="glyphicon glyphicon-link"></a> </strong> and started to get a feel on how to style pages with proper styling rules, although I need a lot more practice :D. I also learned how to configure a small php program to receive emails directly from a web form.
+			</p>
+			<p>
+				You can access this project <strong><a href="http://michelmoreau.ca/" target="_blank">here <span class="glyphicon glyphicon-link"></a></strong>
+			</p>
+			<br>
+			<button data-remodal-action="cancel" class="remodal-cancel">CLOSE</button>
+		</div>
+
+		<div class="remodal" data-remodal-id="diabeteenformeModal">
+			<button data-remodal-action="close" class="remodal-close"></button>
+			<img src="img/diabeteenforme.png" width="200px" alt="Diabete en Forme Project">
+			<h3>Diabete en Forme <br><small>(French)</small></h3>
+			<p>
+				This project was the second real world web project I contributed to. This project was developed as part of a funded study and is a web-based, personalized intervention promoting regular aerobic PA among adult Canadian francophones with type 2 diabetes. I developed the image of the site, a part of the business logic behind it, and the behaviour change system by which participants would increase their physical activity level.  
+			</p>
+			<p>
+				Furthermore, this project has been a stepping-stone for me, because it made me fell in love with programming and its superpowers. It really kickstarted my self-driven programming education journey.
+			</p>
+			<p>
+				You can access the website <strong><a href="http://diabeteenforme-demo.ca/" target="_blank">here <span class="glyphicon glyphicon-link"></a></strong>
+			</p>
+			<p>
+				If you want, you can also access a <strong><a href="http://www.ncbi.nlm.nih.gov/pubmed/25691346" target="_blank">scientific paper <span class="glyphicon glyphicon-link"></a></strong> I have published related to this project.
+			</p>
+			<br>
+			<button data-remodal-action="cancel" class="remodal-cancel">CLOSE</button>
+		</div>
+
+		<div class="remodal" data-remodal-id="diagoModal">
+			<button data-remodal-action="close" class="remodal-close"></button>
+			<img src="img/diago.png" width="200px" alt="DIAGO Project">
+			<p>
+				DIAGO is a simple logo I have developed for a research grant application submitted to the Canadian Diabetes Association in 2015.
+			</p>
+			<br>
+			<button data-remodal-action="cancel" class="remodal-cancel">CLOSE</button>
+		</div>
+
+		<div class="remodal" data-remodal-id="todozenModal">
+			<button data-remodal-action="close" class="remodal-close"></button>
+			<img src="img/todozen2.png" width="200px" alt="TODOZEN project">
+			<p>
+				TODOZEN is a prototype front-end project. It helped me experiment the material design style by using <strong><a href= "http://materializecss.com/ ">Materialize<span class="glyphicon glyphicon-link"></a></strong> - a modern responsive front-end framework based on Material Design. This project helped me gain a feel on how to design a great user experience for desktop AND mobile/tablet users.
+			</p>
+			<p>
+				You can access this project <strong><a href="http://michelmoreau.ca/todomaterial">here<span class="glyphicon glyphicon-link"></a></strong>
+			</p>
+			<br>
+			<button data-remodal-action="cancel" class="remodal-cancel">CLOSE</button>
+		</div>	
+		<!-- end of MODALS section -->
+		
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="bower_components/remodal/dist/remodal.min.js"></script>
+	</body>
+</html>

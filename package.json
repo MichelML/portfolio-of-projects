@@ -1,0 +1,33 @@
+{
+  "name": "nano_project1_portfolio",
+  "version": "1.0.0",
+  "description": "Project 1 of the front-end nanodegree -- Udacity",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichelML/Portfolio_Project1_Udacity_Nanodegree.git"
+  },
+  "keywords": [
+    "portfolio",
+    "udacity",
+    "front-end",
+    "nanodegree"
+  ],
+  "author": "Michel Moreau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichelML/Portfolio_Project1_Udacity_Nanodegree/issues"
+  },
+  "homepage": "https://github.com/MichelML/Portfolio_Project1_Udacity_Nanodegree#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify": "0.0.5",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}

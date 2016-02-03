@@ -1,0 +1,76 @@
+/* Small devices (tablets, between 768px and 991px) */
+@media (min-width:768px) and (max-width:991px) { 
+	#portfolio #portfolio-item-1,
+	#portfolio #portfolio-item-2,
+	#portfolio #portfolio-item-3,
+	#portfolio #portfolio-item-4 {
+		padding:100px 100px;
+		margin-bottom:0;
+	}
+	
+	#portfolio #portfolio-item-1 {
+		padding-top:50px;
+	}
+}
+
+
+/* Medium and larger devices (desktops, tablets landscape and others, 992px and up) */
+@media (min-width:992px) {
+	/*github link*/
+	#github-link img {
+		width:95px;
+	}
+
+
+	/*TO TOP HELPER*/
+	#to-top-link {
+		display:none;
+	}
+	
+
+	/*MAIN CONTENT*/
+	#content {
+		padding-top:60px;
+	}
+	
+	
+	/*ASIDE-SIDEBAR*/
+	aside {
+		position:relative;
+		padding-top:20px;
+		min-height:100%;
+		padding-bottom:45%;
+		z-index:-1;
+	}
+	
+	aside #colors {
+		position:relative;
+		margin:auto;
+	}
+	
+	aside #black-color,
+	aside #grey-color,
+	aside #blue-color,
+	aside #white-color {
+		margin-top:15px;
+		padding:15px;
+	}
+	
+
+	/*PORTFOLIO SECTION*/
+	#portfolio #image-1-desktop {
+		display:block;
+	}
+	
+	#portfolio #image-1-mobile {
+		display:none;
+	}
+	
+	#portfolio-item-2 .card-title {
+		font-size:.83em;
+		padding-top:7px;
+		padding-bottom:7px;
+	}
+}
+
+
