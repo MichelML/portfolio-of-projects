@@ -1,19 +1,19 @@
 /*TO-TOP HELPER BUTTON*/
 #to-top-link #to-top-icon {
-	color:#f5f5f5;
-	text-shadow:0 0 20px #000;
+    color: #f5f5f5;
+    text-shadow: 0 0 20px #000;
 }
 
 
 /*NAV-HEADER*/
 .navbar {
-	background-color:white;
-	border-top:none;
-	border-right:none;
-	border-left:none;
-	border-bottom:3px solid #000;
-	box-shadow:0 1px 3px #999;
-	z-index:10;
+    background-color: white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 3px solid #000;
+    box-shadow: 0 1px 3px #999;
+    z-index: 10;
 }
 
 nav #brand-text a,
@@ -21,43 +21,43 @@ nav #brand-text a,
 #portfolio #portfolio-item-2 a,
 #portfolio #portfolio-item-3 a,
 #portfolio #portfolio-item-4 a {
-	color:#000;
+    color: #000;
 }
 
 
 /*ASIDE-SIDEBAR*/
 aside {
-	background-color:#f5f5f5;
-	box-shadow:1px 1px 3px #777;
+    background-color: #f5f5f5;
+    box-shadow: 1px 1px 3px #777;
 }
 
 aside #black-color,
 aside #white-color,
 aside #grey-color,
 aside #blue-color {
-	box-shadow:1px 1px 3px #999;
-	text-shadow:0 1px 1px #999;
+    box-shadow: 1px 1px 3px #999;
+    text-shadow: 0 1px 1px #999;
 }
 
 aside #black-color,
 aside #blue-color {
-	color:#fff;
+    color: #fff;
 }
 
 aside #black-color {
-	background-color:#000;
+    background-color: #000;
 }
 
 aside #grey-color {
-	background-color:#f5f5f5;
+    background-color: #f5f5f5;
 }
 
 aside #blue-color {
-	background-color:#39c;
+    background-color: #39c;
 }
 
 aside #white-color {
-	background-color:#fff;
+    background-color: #fff;
 }
 
 
@@ -66,22 +66,19 @@ aside #white-color {
 #portfolio #portfolio-item-2 .card-title,
 #portfolio #portfolio-item-3 .card-title,
 #portfolio #portfolio-item-4 .card-title {
-	border-bottom:2px solid rgba(20,20,20,.1);
+    border-bottom: 2px solid rgba(20,20,20,.1);
 }
 
 #portfolio #portfolio-item-1 a,
 #portfolio #portfolio-item-2 a,
 #portfolio #portfolio-item-3 a,
 #portfolio #portfolio-item-4 a {
-	color:#000;
+    color: #000;
 }
 
 
 /*FOOTER*/
 footer {
-	border-top:3px solid #000;
-	box-shadow:0 -1px 3px #999;
-
+    border-top: 3px solid #000;
+    box-shadow: 0 -1px 3px #999;
 }
-
-

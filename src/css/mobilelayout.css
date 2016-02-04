@@ -1,106 +1,101 @@
 /*GITHUB LINK*/
 #github-link {
-	position:absolute;
-	z-index:10;
-	right:0;
-	top:60px;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 60px;
 }
 
 #github-link img {
-	width:80px;
+    width: 80px;
 }
 
 
 /*TO-TOP HELPER*/
 #to-top-link {
-	position:fixed;
-	z-index:20;
-	bottom:10px;
-	right:15px;
-	font-size:50px;
+    position: fixed;
+    z-index: 20;
+    bottom: 10px;
+    right: 15px;
+    font-size: 50px;
 }
 
 
 /*NAV-HEADER*/
 nav #brand-logo {
-	margin:5px 0 10px 20px;
-	max-width:45px; /*I needed to set max-width and max-height on the logo for proper sizing in IE*/
-	max-height:45px;
-
+    margin: 5px 0 10px 20px;
+    max-width: 45px;
+ /*I needed to set max-width and max-height on the logo for proper sizing in IE*/
+    max-height: 45px;
 }
 
 nav #brand-text h5 {
-	margin-bottom:0;
-	padding-right:10px;
+    margin-bottom: 0;
+    padding-right: 10px;
 }
 
 nav #brand-text h6 {
-	margin-top:3px;
-	padding-right:10px;
+    margin-top: 3px;
+    padding-right: 10px;
 }
 
 .navbar {
-	width:100%;
-	position:fixed;
-	margin-bottom:0;
+    width: 100%;
+    position: fixed;
+    margin-bottom: 0;
 }
 
 
 /*ASIDE-SIDEBAR*/
 
 aside {
-	padding-top:75px;
-	padding-bottom:12px;
+    padding-top: 75px;
+    padding-bottom: 12px;
 }
 
 aside #black-color,
 aside #grey-color,
 aside #blue-color,
 aside #white-color {
-	padding-top:5px;
-	padding-bottom:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 
 /*PORTFOLIO SECTION*/
 #portfolio #image-1-desktop {
-	display:none;
+    display: none;
 }
 
 #portfolio #portfolio-item-1,
 #portfolio #portfolio-item-2,
 #portfolio #portfolio-item-3,
 #portfolio #portfolio-item-4 {
-	margin-bottom:80px;
+    margin-bottom: 80px;
 }
 
 .img-responsive.col-xs-12 {
-	padding:0;
-	margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 
 /*FOOTER*/
 footer #footer-img {
-  width:16px;
-  display:inline;
+    width: 16px;
+    display: inline;
 }
 
 footer img[id^="social"] {
-  margin:15px 5px 15px 5px;
-  width:30px;
-  display:inline;
-  border-radius:100%;
-  box-shadow:1px 1px 1px #999;
+    margin: 15px 5px 15px 5px;
+    width: 30px;
+    display: inline;
+    border-radius: 100%;
+    box-shadow: 1px 1px 1px #999;
 }
 
 
 /*MODALS*/
 .remodal img[alt="TODOZEN project"] {
-	margin-bottom:30px;
+    margin-bottom: 30px;
 }
-
-
-
-
-

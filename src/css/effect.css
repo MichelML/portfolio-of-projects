@@ -1,9 +1,9 @@
 /* HR Gradient:transparent - color - transparent -- from https://css-tricks.com/examples/hrs/ */
 .hr-gradient {
-  border:0;
-  height:2px;
-  width:75%;
-  background-image:linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
+    border: 0;
+    height: 2px;
+    width: 75%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, .75), rgba(0, 0, 0, 0));
 }
 
 
@@ -11,23 +11,24 @@
 
     /*TO-TOP HELPER BUTTON*/
 #to-top-link #to-top-icon:hover {
-  text-shadow:0 0 20px #000;
-  color:#39c;
+    text-shadow: 0 0 20px #000;
+    color: #39c;
 }
 
    /*NAV-HEADER*/
 nav a #brand-logo:hover,
 nav a #brand-logo:focus,
 nav a #brand-logo:active {
-  border-radius:100%;
-  background-color:rgba(51, 153, 204, .4); /* this is the #39c color with reduced opacity */
+    border-radius: 100%;
+    background-color: rgba(51, 153, 204, .4);
+ /* this is the #39c color with reduced opacity */;
 }
 
 nav #brand-text a:hover,
 nav #brand-text a:focus,
 nav #brand-text a:active {
-  text-decoration:none;
-  color:#39c;
+    text-decoration: none;
+    color: #39c;
 }
 
    /*PORTFOLIO*/
@@ -35,8 +36,8 @@ nav #brand-text a:active {
 #portfolio #portfolio-item-2 a:hover, #portfolio #portfolio-item-2 a:focus, #portfolio #portfolio-item-2 a:active,
 #portfolio #portfolio-item-3 a:hover, #portfolio #portfolio-item-3 a:focus, #portfolio #portfolio-item-3 a:active,
 #portfolio #portfolio-item-4 a:hover, #portfolio #portfolio-item-4 a:focus, #portfolio #portfolio-item-4 a:active {
-  color:#39c;
-  font-weight:bold;
+    color: #39c;
+    font-weight: bold;
 }
 
 #portfolio #portfolio-item-1 paper-card:hover,
@@ -51,7 +52,7 @@ nav #brand-text a:active {
 #portfolio #portfolio-item-4 paper-card:hover,
 #portfolio #portfolio-item-4 paper-card:focus,
 #portfolio #portfolio-item-4 paper-card:active {
-  border:2px solid #39c;
+    border: 2px solid #39c;
 }
 
 #portfolio #portfolio-item-1 paper-card:hover div,
@@ -66,14 +67,11 @@ nav #brand-text a:active {
 #portfolio #portfolio-item-4 paper-card:hover div,
 #portfolio #portfolio-item-4 paper-card:focus div,
 #portfolio #portfolio-item-4 paper-card:active div {
-  background-color:#f5f5f5;
+    background-color: #f5f5f5;
 }
 
     /*FOOTER*/
 .hvr-shadow:hover, .hvr-shadow:focus, .hvr-shadow:active {
-  text-decoration:none;
-  box-shadow:0 0 20px #39c;
+    text-decoration: none;
+    box-shadow: 0 0 20px #39c;
 }
-
-
-
