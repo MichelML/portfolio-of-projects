@@ -1,6 +1,6 @@
 *Note to the reviewer: Please use the files in the __src__ folder only to review this project.*
 
-(Click here to have a quick look at this project)[http://michelml.github.io/portfolio-of-projects/dist/]
+*[Click here to have a quick look at this project](http://michelml.github.io/portfolio-of-projects/dist/)*
 
 # Personal Portfolio - Udacity Front-End Nanodegree Project 1
 This project is a web portfolio that was built for the Udacity's [Front-End Web Developer Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001). The goal was to create a responsive web page describing some design work I have done in the past.
